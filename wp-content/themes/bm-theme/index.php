@@ -12,7 +12,7 @@
  * @package BM-Theme
  */
 
-get_header(); ?>
+get_header('custom'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" style="margin: 5%;">
