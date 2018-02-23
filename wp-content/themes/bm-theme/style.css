@@ -889,6 +889,14 @@ img.custom-logo {
 	display: none;
 }
 
+.tags-links {
+	display: none;
+}
+
+.cat-links {
+	display: none;
+}
+
 .site-footer {
 	background-color: #000;
 	color: #fff;
@@ -901,7 +909,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/02/website-cover-4-1.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/02/website-cover-4-1.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1021,7 +1029,7 @@ img.custom-logo {
 	color: #2794bd;
 }
 
-/*=========ABOUT US=============*/
+/*=========ABOUT US mobile=============*/
 #about, #mission, #keri {
 	padding: 0.3% 5%;
 }
@@ -1041,7 +1049,7 @@ img.custom-logo {
 	margin-top: -25px;
 }
 
-/*=========PORTFOLIO=============*/
+/*=========PORTFOLIO mobile=============*/
 .category-wrapper {
 	  background-position: center;
 	  background-size: cover;
@@ -1056,7 +1064,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/1.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/1.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1066,7 +1074,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/2.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/2.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1076,7 +1084,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/3.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/3.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1086,7 +1094,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/4.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/4.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1096,7 +1104,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/portfolio-backgrounds.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/portfolio-backgrounds.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1106,7 +1114,7 @@ img.custom-logo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/02/portfolio-backgrounds.png');
+  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/02/portfolio-backgrounds.png');
   width: 100%;
   padding: 10% 5% 25% 5%;
   z-index: -1;
@@ -1214,9 +1222,40 @@ img.custom-logo {
 	width: 90%;
 }
 
+#nf-field-4.ninja-forms-field.nf-element:hover, #nf-field-4.ninja-forms-field.nf-element:focus, #nf-field-4.ninja-forms-field.nf-element:active {
+	background-color: #2794bd;
+	color: #fff;
+}
+
 .contact-img {
 	display: none;
 	margin-top: 10%;
+}
+
+/*==========BLOG mobile================*/
+.post-1 h1 {
+	color: #594aa7;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+/*===Keep This?=======*/
+.entry-title h2 {
+	color: #594aa7;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.post-1 h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #594aa7;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.comment-list {
+	padding-left: 0;
+	margin-left: 25px;
 }
 
 @media screen and (min-width: 768px){
@@ -1240,7 +1279,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/02/website-cover-4-1.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/02/website-cover-4-1.png');
 	  width: 100%;
 	  padding: 10% 5% 10% 5%;
 	  z-index: -1;
@@ -1250,7 +1289,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/1.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/1.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
@@ -1260,7 +1299,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/2.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/2.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
@@ -1270,7 +1309,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/3.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/3.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
@@ -1280,7 +1319,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/4.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/4.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
@@ -1290,7 +1329,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/01/portfolio-backgrounds.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/01/portfolio-backgrounds.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
@@ -1300,7 +1339,7 @@ img.custom-logo {
 	  background-position: center;
 	  background-size: cover;
 	  background-repeat: no-repeat;
-	  background-image: url('http://localhost/barnettmarketing/wp-content/uploads/2018/02/portfolio-backgrounds.png');
+	  background-image: url('http://barnettmarketing.org/wp-content/uploads/2018/02/portfolio-backgrounds.png');
 	  width: 100%;
 	  padding: 5%;
 	  z-index: -1;
