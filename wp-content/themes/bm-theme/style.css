@@ -352,6 +352,9 @@ hr {
 
 ul, ol {
 	margin: 0 0 1.5em 3em;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 0;
+	margin-left: 25px;
 }
 
 ul {
@@ -1362,5 +1365,7 @@ img.custom-logo {
 		width: 295px;
 		height: 481px;
 	}
+
+/*=========BLOG 940===================*/
 
 }
