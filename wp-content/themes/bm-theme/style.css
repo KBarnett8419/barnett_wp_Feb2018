@@ -52,6 +52,7 @@ html {
 
 body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
 article,
@@ -593,7 +594,7 @@ a:hover, a:active {
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-	float: right;
+  float: right;
 	text-align: right;
 	width: 50%;
 }
@@ -1236,11 +1237,27 @@ img.custom-logo {
 }
 
 /*==========BLOG mobile================*/
+body.post-template-default.single.single-post {
+	margin: 0 5%;
+}
+
+/*
+.post-thumbnail {
+	margin-top: 7%;
+	text-align: center;
+}
+*/
+div#content.site-content {
+	box-shadow: #f2f2f2 1px 1px 10px 5px;
+	margin-top: 3%;
+}
+
 .post-1 h1 {
 	color: #594aa7;
 	text-transform: capitalize;
 	font-weight: bold;
 }
+
 
 /*===Keep This?=======*/
 .entry-title h2 {
@@ -1367,5 +1384,8 @@ img.custom-logo {
 	}
 
 /*=========BLOG 940===================*/
+body.post-template-default.single.single-post {
+	margin: 0 10%;
+}
 
 }
